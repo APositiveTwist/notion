@@ -93,7 +93,7 @@
 
 <script>
 
-function dispalyGreetings(today){
+function DisplayGreetings(today){
         hrs = today.getHours();
         name=", Niklaus"
         if (hrs < 12)
@@ -106,7 +106,7 @@ function dispalyGreetings(today){
 
     }
 
-    function dispalyDate(today) {  
+    function DisplayDate(today) {  
        
         const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         const monthNames = ["January", "February", "March", "April", "May", "June",
@@ -122,7 +122,7 @@ function dispalyGreetings(today){
     }
 
 
-    function dispalyClock(today) {
+    function DisplayClock(today) {
 
         var hour = padZeros(today.getHours());
         var minutes = padZeros(today.getMinutes());
@@ -146,15 +146,15 @@ function dispalyGreetings(today){
         return num;
     }
 
-    function dispalyWidget() {
+    function DisplayWidget() {
         var today = new Date();
-        dispalyGreetings(today);
-        dispalyDate(today);
-        dispalyClock(today);
-        setTimeout(dispalyWidget, 500);
+        DisplayGreetings(today);
+        DisplayDate(today);
+        DisplayClock(today);
+        setTimeout(DisplayWidget, 500);
     }
 
-    dispalyWidget()
+    DisplayWidget()
 
 </script>
 
