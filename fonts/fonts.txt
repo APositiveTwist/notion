@@ -1,0 +1,47 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+</style>
+font-family: 'Indie Flower', cursive;
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+</style>
+font-family: 'Nova Mono', monospace;
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+</style>
+font-family: 'Architects Daughter', cursive;
+
+folklore & evermore
+HTML:
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
+</style>
+CSS:
+font-family: 'IM Fell DW Pica', serif;
+
+HTML:
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@1&display=swap');
+</style>
+CSS:
+font-family: 'IM Fell DW Pica', serif;
+
+lover:
+HTML:
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+</style>
+
+CSS:
+font-family: 'Satisfy', cursive;
+
+1989:
+HTML:
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+</style>
+
+CSS:
+font-family: 'Permanent Marker', cursive;
